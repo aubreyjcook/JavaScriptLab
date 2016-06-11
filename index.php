@@ -55,13 +55,37 @@
     <header>
         <?php include 'header.php';?>
     </header>
-    
-    <nav>
-        <?php include 'nav.php';?>
-    </nav>
 
     <main>
-        <p>This assignment will be focused on using external php to form web pages with templates.</p>
+        <figure>
+        <img src="images/picture1.jpg" alt="robin on a road guard"/>
+        <figcaption>robin on a road guard</figcaption>
+        </figure>
+        
+        <figure>
+        <img src="images/picture2.jpg" alt="ground hog in a tree"/>
+        <figcaption>ground hog in a tree</figcaption>
+        </figure>
+        
+        <figure>
+        <img src="images/picture3.jpg" alt="graveyard at sundown"/>
+        <figcaption>graveyard at sundown</figcaption>
+        </figure>
+        
+        <figure>
+        <img src="images/picture4.jpg" alt="statue of jesus"/>
+        <figcaption>statue of jesus</figcaption>
+        </figure>
+        
+        <figure>
+        <img src="images/picture5.jpg" alt="white bird on river tree"/>
+        <figcaption>white bird on river tree</figcaption>
+        </figure>
+        
+        <figure>
+        <img src="images/picture6.jpg" alt="statue of virgin mary"/>
+        <figcaption>statue of virgin mary</figcaption>
+        </figure>
     </main>
 
     <footer>
