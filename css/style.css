@@ -215,75 +215,27 @@ figure img {
     padding: 3px;
 }
 
-/* end of specific styling */
-
-/* column grid style layout classes */
-
-.column-grid .gallery {
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    columns: 3;
+.left img, .right img {
+    margin: 10px auto;
 }
 
-.column-grid figure {
-    margin: 0 0 20px;
-    width: 100%;
-}
 
-.column-grid figure img {
-    border: 15px solid rgba(255,255,255,0.5);
-    box-sizing: border-box;
-}
-
-/* column grid style layout classes: CLOSED */
-
-/* caption grid style layout classes */
-
-.caption-grid .gallery {
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    columns: 3;
-}
-
-.caption-grid figure {
-    margin: 0 0 20px;
-    width: 100%;
-    position: relative;
-}
-
-.caption-grid figcaption {
-    padding: 10px;
-    background: rgba(0,0,0,0.5);
-    color: #fff;
-    text-align: center;
-    border-width: 0 0 0 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-}
-
-.caption-grid figure img {
-
-}
-
-.caption-grid figcaption, .caption-grid figure img {
-    border-style: solid;
-    border-color: #fff;
-    box-sizing: border-box;
-}
-
-/* caption grid style layout classes: CLOSED */
-
-/* float grid style layout classes */
-
-.float-grid figure {
-    width: 25%;
+.left {
+    width: 200px;
     float: left;
-    margin: 25;
+    min-height: 600px;
+    text-align: center;
+}
+.right {
+    width: 800px;
+    text-align: center;
+    min-height: 600px;
+    float: right;
 }
 
-.float-grid figure:nth-of-type(3n+1) {
-    clear: left;
+#large{
+    width: 65%;
+    height: auto;
 }
 
-/* float grid style layout classes: CLOSED */
+/* end of specific styling */
