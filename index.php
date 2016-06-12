@@ -61,7 +61,13 @@
     </header>
 
     <main>
-       <div class="left">
+        <div>
+            <p>
+                This project focuses on using Javascript to change elements by id. In this case we are using functions to change the image on the right during an onclick event to any of the images on the left. The alt text is also changed.
+            </p>
+        </div>
+      
+        <div class="left">
            <a href="#large"><img src="images/picture1.jpg" alt="robin on a road guard" height="125" title="robin on a road guard" onclick="change01()"/></a><br>
            <a href="#large"><img src="images/picture2.jpg" alt="ground hog in a tree" height="125" title="ground hog in a tree" onclick="change02()"/></a><br>
            <a href="#large"><img src="images/picture3.jpg" alt="graveyard at sundown" height="125" title="graveyard at sundown" onclick="change03()"/></a><br>
